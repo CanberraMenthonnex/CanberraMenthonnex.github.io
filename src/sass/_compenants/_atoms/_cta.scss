@@ -1,0 +1,61 @@
+a{
+    color:$white;
+    text-decoration: none;
+    font-family: $Poppins;
+    width: 12rem;
+    text-align: center;
+}
+
+.buttonLink{
+    @extend a;
+    padding: $SPadding;
+    border-radius: $BorderRadius;
+}
+
+.lowerButtonLink{
+    @extend .buttonLink;
+    background: $gradient;
+    
+}
+
+.upperButtonLink{
+    @extend .lowerButtonLink;
+    text-transform: uppercase;
+}
+
+#icone_mouse{
+    margin-left: 50%;
+    padding: 1.5rem;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.buttonSelected{
+    border: none;
+    color: $white;
+    background: $gradient;
+    padding: $SPadding;
+    border-radius: $BorderRadius;
+    width: 8rem;
+}
+
+.buttonUnSelected{
+    background-color: white;
+    color: black;
+
+    border:solid;    
+    border-color: $blue;
+    border-width: 2px;
+
+    padding: $SPadding;
+    border-radius: $BorderRadius;
+    width: 8rem;
+}
+
+input{
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    padding: $MPadding;
+    background-color:$lightwhite;
+}

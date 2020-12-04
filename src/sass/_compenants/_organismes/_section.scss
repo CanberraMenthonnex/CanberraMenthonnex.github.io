@@ -1,0 +1,50 @@
+#first_section{
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+
+.main_content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#offer_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../assets/img/background-service.png);
+    width: 90%;
+    margin: auto;
+}
+
+
+#price_section{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #ECEAFE;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+#newsletter_section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 30vh;
+    article{
+        width: 100%;
+    }
+    button{
+        margin-left: $MMargin;
+    }
+}

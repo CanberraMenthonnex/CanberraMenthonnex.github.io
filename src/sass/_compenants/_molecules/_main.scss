@@ -1,0 +1,18 @@
+.main_content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card_content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#image_aside{
+    display: flex;
+    flex-direction: column;
+}

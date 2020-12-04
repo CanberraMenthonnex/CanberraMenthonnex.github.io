@@ -1,0 +1,27 @@
+footer{
+    background-image: url("../assets/img/footer.png");
+    background-size: cover;
+    height: 65vh;
+    margin-top: 10vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    section{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+
+    li{
+        font-size: $Sfont;
+        font-family: $Poppins;
+        margin: 5px;
+    }
+}
+
+.schedule::after{
+    content: "9:00 - 18:00";
+    margin-left: $SMargin;
+}

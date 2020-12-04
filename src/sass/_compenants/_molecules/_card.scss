@@ -1,0 +1,61 @@
+.cardBase{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card{
+    @extend .cardBase;
+
+    align-self: center;
+    height: 35vh;
+}
+
+
+.cardM{
+    @extend .card;
+    background-image: url(../assets/img/background-we-are.png);
+    height: 50vh;
+    width: 50%;
+    margin-left: 5rem;
+}
+.cardS{
+    @extend .cardBase;
+    background-color: white;
+    align-items: center;
+    width: calc((100% - 10rem) /3);
+    border-radius: $BorderRadius;
+    padding: $MPadding $SPadding;
+    margin-top: $LPadding;
+    .smallCardText{
+        width: 90%;
+        margin-top: $MPadding;
+        color: $grey;
+        font-family: $Lato;
+    }
+    .upperButtonLink{
+        padding: $SPadding $MPadding;
+        margin-top: $LPadding;
+        width: auto;
+        font-size: $Xsfont;
+        position: relative;
+        left: 6rem;
+    }
+}
+
+.cardPrice{
+    @extend .cardBase;
+
+    align-items: center;
+    border-radius: $BorderRadius;
+    width: calc((100% - 200px) /3);
+    text-align: center;
+    height: 55vh;
+
+    background-color: $white;
+
+    p{
+        width: 80%;
+        font-family: $Poppins;
+    }
+}

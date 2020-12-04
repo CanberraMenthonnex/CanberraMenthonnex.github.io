@@ -1,0 +1,61 @@
+@media screen and (max-width:1335px){
+    body{
+        background-size: 50%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    #first_section{
+        height: auto;
+    }
+
+    #offer_section{
+        margin: 0;
+        width: 100%;
+    }
+
+    #price_section{
+        height: auto;
+        
+    }
+
+    footer{
+        margin-top: 0;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width:670px){
+    footer{
+        section{
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
+
+    header{
+        flex-direction: column;
+        
+    }
+
+}
+
+@media screen and (max-width:670px){
+
+    #first_section, #price_section{
+        height: auto;
+        
+    }
+
+    footer{
+        height: auto;
+        li{
+            font-size: 14px;
+        }
+        section{
+            margin-top: 100px;
+        }
+    }
+
+}

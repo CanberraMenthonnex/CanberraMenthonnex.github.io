@@ -1,0 +1,66 @@
+h1{
+    font-size: 3.5rem;
+    color: $grey;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 70px;
+    span{
+        font-weight: bold;
+        font-size: $XLfont;
+    }
+}
+
+
+h2{
+    font-size: 3rem;
+    color: $grey;
+    font-family: "Poppins";
+    font-weight: 600;
+
+}
+
+h3{
+    font-family: $Lato;
+    font-size: 2rem;
+    color: $grey;
+}
+
+h4{
+    font-family: $Lato;
+    font-size: $Mfont;
+}
+
+#header_title{
+    font-size: $Lfont;
+    color: $darkgrey;
+    font-weight: bold;
+}
+
+
+
+.preTitle{
+    font-family: "Lato";
+    color: $purple-shadow;
+    font-size: $Mfont;
+}
+
+.sTitle{
+    text-transform: uppercase;
+    font-size: $Sfont;
+    color: $grey;
+    font-weight: 600;
+    margin-top: $SPadding;
+}
+
+.mTitle{
+    font-size: 2rem;
+    color: $grey;
+}
+
+#title_footer{
+    font-size: 3.5rem;
+}
+
+#title2_footer{
+    font-size: $Mfont;
+}

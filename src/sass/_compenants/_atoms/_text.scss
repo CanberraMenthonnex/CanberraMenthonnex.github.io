@@ -1,0 +1,32 @@
+.description_text{
+    font-weight: normal;
+    color: $lightgrey;
+    text-transform: uppercase;
+    font-size: $Sfont;
+    
+}
+
+.Mdescription_text{
+    @extend .description_text;
+    width: 70%;
+}
+
+#ourServiceSection{
+    .preTitle{
+        margin-top: $LPadding;
+    }
+
+    .preTitle, h2{
+        margin-left: 10rem;
+    }
+}
+
+.price::before{
+    content: "$";
+}
+
+.price{
+    color: $blue;
+    font-weight: 600;
+    font-size: $Mfont;
+}
